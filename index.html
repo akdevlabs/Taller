@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <meta charset="UTF-8">
-    <title>Buscastaller </title>
+    <title>Buscastaller</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, intial-scale=1, shrinck-to-fit=no">
     <link rel="shortcut icon" href="images/logo2.jpg">
@@ -28,63 +28,83 @@
         <div class="banner">
             <h1 class="what">Encuentra el mejor taller con un solo click: </h1>
             <input class="in" type="search"placeholder="Buscar talleres en tu area " />
-            
-           
             <button class="trial">Buscar</button>
         </div>
-
-        <div class="top5">
-            <h1>5 mejors tallers</h1>
-                <div class="1spot">
-                   <h2></h2> 
-                </div>
-        </div>
+        
         <div class="how" >
             <div class="image">
                 <img class="base" src="images/gril20.jpg" alt="girl-on-car">
                 <div class="image-overlay">
                     <div class="image-title">La forma en que debe ser:</div>
                         <p class="image-description">
-                            
                             <h2 class="image-info" >✓ Tener el control <img class="icon-info-1" src="images/icon-info.png"  width="30px" height="30px" alt="info-icon"> </h2>        
                             <h2 class="image-info" >✓ Como Funciona para ti <img class="icon-info-2" src="images/icon-info.png"  width="30px" height="30px" alt="info-icon"> </h2>
                             <h2 class="image-info" >✓ El mejor servicio <img class="icon-info-3" src="images/icon-info.png"  width="30px" height="30px" alt="info-icon"> </h2>
                             <button class="btn-image-info" >Buscar taller</button> 
                         </p>     
-                    </div>
-                   </div> 
-                </div> 
-        </div>  
+                </div>
+            </div> 
+        </div>
         <div class="taller" >
             <div class="img-taller" >
                  <img class="img-team" src="images/Team.jpg" alt="team">
                  <div class="taller-overlay">
                     <div class="taller-title">La forma en que debe ser:</div>
                         <p class="taller-description">
-                           
-                            <input class="taller-info" >Nomber de compania>
-                            <input class="taller-info" type="search"placeholder="Nomber de compania" />
-                            <input class="taller-info" > Tipo de taller >        
-                            <input class="image-info" > nombre de dueno >
-                            <input class="taller-info" type="email"placeholder="Email" />
-                            <input class="taller-info" type="tel"placeholder="Telefono" />
-                            <button class="btn-taller-info" type="submit" >Telefono</button> 
+                            <input class="taller-info-compa" type="search"placeholder="Nomber de compania" />
+                            <input class="taller-info-web" type="url"placeholder="Pagina web" />
+                           <div class="dropdown">
+                                <form action="/action_page.php">
+                                    <label for="cars">Tipo de taller:</label>
+                                    <select name="cars" id="cars">
+                                        <optgroup label="Selectiona">
+                                            <option value="volvo" class="va-mecan" >Mecánica</option>
+                                            <option value="saab" class="va-mecan">Hojalateria y Pintura</option>
+                                            <option value="saab"class="va-mecan" >Electrico</option>
+                                            <option value="saab"class="va-mecan">Detallado</option>
+                                            <option value="saab"class="va-mecan">Autoboutique</option>
+                                        </optgroup>
+                                    </select>
+                                    <br><br>
+                                </form>
+                           </div>
+                            <input class="taller-info-dueno" type="search"placeholder="Nombre de dueño" />
+                            <input class="taller-info-email" type="email"placeholder="E-mail" />
+                            <input class="taller-info-tel" type="tel"placeholder="Telefono" />
+                            <button class="btn-taller-info" type="submit" >Submit</button> 
                         </p>     
-                    </div>
-                   </div> 
-                </div> 
-        </div>     
-            
-            
-            
+                 </div>
+            </div> 
+        </div> 
+ <div class="footer">
+            <div class="icon-family">
+                <a class="social-icon" href="https://www.facebook.com/profile.php?id=100086056975804" target="_blanck">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                  <a class="social-icon"  href="https://www.instagram.com/buscastaller/" target="_blanck">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>  
+               <a class="social-icon"   href="https://www.youtube.com/channel/UCkCtiKoHoevprr3xYo5T7RA" target="_blanck">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>   
+                <a class="social-icon" class="social-icon"  href="https://www.facebook.com/profile.php?id=100086056975804" target="_blanck">
+                 <ion-icon name="logo-whatsapp"></ion-icon> 
+                </a> 
                 </div>
-
-
-
-
-        </div>
-    
-    
-    
+             
+              
+            <a class="akl-logo" href="https://www.facebook.com/profile.php?id=100086936984418/" target="_blanck">
+              <img alt="Akl" src="images/Ak.png"
+              width="550" height="120">
+            </a>
+       
+                
+             <div>
+              <h3 class="Sitio" >SITIOAk </h3>
+  
+             </div>  
+              <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+              <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </div>             
     </body>
 </html>
